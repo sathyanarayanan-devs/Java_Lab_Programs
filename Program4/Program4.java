@@ -1,4 +1,3 @@
-package Program4;
 class Person{
     String name;
 

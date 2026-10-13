@@ -20,8 +20,10 @@ class MyCalculator implements Calculator {
     public double divide(int a, int b) {
         if (b == 0) {
             System.out.println("Error: Division by zero is not allowed.");
+            return 0; // Return 0 or handle the error as needed
+        } else {
+            return (double) a / b;
         }
-        return (double) a / b;
     }
 
     @Override
